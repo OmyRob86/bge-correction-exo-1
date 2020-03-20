@@ -12,8 +12,8 @@ app.use(express.static('./public'));
 
 app.get('/get_text', (req, res) => {
     res.send({
-        tittle: "Mon article",
-        content: "el mejor contenido del mundo",
+        tittle: "My article",
+        content: "El mejor contenido del mundo",
         author: "Omy_86"
     });
 });
