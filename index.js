@@ -11,9 +11,5 @@ app.listen(3000, () => {
 app.use(express.static('./public'));
 
 app.get('/get_text', (req, res) => {
-    res.send({
-        tittle: "My article",
-        content: "El mejor contenido del mundo",
-        author: "Omy_86"
-    });
+    res.send('hola chiquitas');
 });

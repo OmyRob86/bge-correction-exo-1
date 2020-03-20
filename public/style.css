@@ -1,7 +1,16 @@
-title {
+h2 {
     color: gray;
 }
 
+article {
+    border: 1px chocolate;
+    box-sizing: border-box;
+}
+
+p {
+    text: 25px;
+    color: cadetblue;
+}
 image {
-    size: 200px;
+    position: absolute;
 }
