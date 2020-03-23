@@ -12,10 +12,13 @@
 
 - [ ]Une route "/api/user" qui renvoie un objet json avec les clés :
 
-    -[ ] name (string)
-    -[ ] verified (bool)
-    -[ ] birthdate (Date)
-    -[ ] friends (Array)
+    - [ ] name (string)
+
+    - [ ] verified (bool)
+
+    - [ ] birthdate (Date)
+
+    - [ ] friends (Array)
 
 - [ ]publication du projet sur github
 
