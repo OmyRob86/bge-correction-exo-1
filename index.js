@@ -5,7 +5,7 @@ const fs = require("fs");
 const app = express();
 
 app.listen(3000, () => {
-    console.log("serveur started...");
+    console.log("server started...");
 });
 
 app.use(express.static('./public'));
