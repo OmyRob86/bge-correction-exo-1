@@ -10,15 +10,15 @@
     - [ ] css ( dans une feuille appart )
     - [ ] une image stockée à côté du fichier html et appelée dedans
 
-- [ ] Une route "/api/user" qui renvoie un objet json avec les clés :
+- [x] Une route "/api/user" qui renvoie un objet json avec les clés :
 
-    - [ ] name (string)
+    - [x] name (string)
 
-    - [ ] verified (bool)
+    - [x] verified (bool)
 
-    - [ ] birthdate (Date)
+    - [x] birthdate (Date)
 
-    - [ ] friends (Array)
+    - [x] friends (Array)
 
 - [ ] publication du projet sur github
 

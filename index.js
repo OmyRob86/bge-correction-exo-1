@@ -1,7 +1,5 @@
 const express = require("express");
 
-const fs = require("fs");
-
 const app = express();
 
 app.listen(3000, () => {
@@ -10,6 +8,11 @@ app.listen(3000, () => {
 
 app.use(express.static('./public'));
 
-app.get('/get_text', (req, res) => {
-    res.send('hola chiquitas');
+app.get('/api/user', (req, res) => {
+    res.send({
+        name: "Omy",
+        verified: true,
+        birthdate: new Date(1900, 12, 12),
+        firends: [ "Jessica", "Melissa", "Lyanne" ],
+    })
 });
