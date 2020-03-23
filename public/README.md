@@ -1,8 +1,8 @@
--[ ]Création projet node.
+-[x]Création projet node.
 
--[ ]Création projet git (avec commit réguliers)
+-[x]Création projet git (avec commit réguliers)
 
--[ ]installation express
+-[x]installation express
 
 -[ ]création index.html avec dedans :
 
