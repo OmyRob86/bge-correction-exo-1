@@ -1,4 +1,4 @@
-h2 {
+h1 {
     color: gray;
 }
 
@@ -11,6 +11,7 @@ p {
     text-align: left;
     color: cadetblue;
 }
-image {
-    position: absolute;
+img {
+    width: 150px;
+    padding-top: 50px;
 }
