@@ -14,5 +14,5 @@ app.get('/api/user', (req, res) => {
         verified: true,
         birthdate: new Date(1900, 12, 12),
         firends: [ "Jessica", "Melissa", "Lyanne" ],
-    })
+    });
 });
