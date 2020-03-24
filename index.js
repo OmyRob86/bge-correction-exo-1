@@ -6,9 +6,9 @@ app.listen(3000, () => {
     console.log("server started...");
 });
 
-app.use(express.static('./public'));
+app.use(express.static("./public"));
 
-app.get('/api/user', (req, res) => {
+app.get("/api/user", (req, res) => {
     res.send({
         name: "Omy",
         verified: true,
